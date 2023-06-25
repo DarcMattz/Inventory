@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HRMS</title>
+    <title>Inventory</title>
 
     <style>
         body {
@@ -73,7 +73,7 @@
         $username = $_POST["username"];
         $password = $_POST["password"];
         if ($username == "admin" and $password == "admin") {
-            header("Location: dashboard.php");
+            header("Location: add.php");
         } else {
             $error = "<div class='alert'>*Account Doesn't Exist</div>";
         }

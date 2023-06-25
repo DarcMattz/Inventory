@@ -88,7 +88,7 @@
             <li><a id="btn-edit" href="#">Edit</a></li>
             
             <br>
-            <li><a id="btn-out" href="#">Logout</a></li>
+            <li><a id="btn-out" href="login.php">Logout</a></li>
         </ul>
     </div>
 </div>

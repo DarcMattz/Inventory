@@ -36,7 +36,8 @@ if (mysqli_num_rows($result) > 0) {
             <td><?php echo $row["prodUnit"]; ?> </td>
             <td><?php echo $row["prodSupplier"]; ?> </td>
             <td><?php echo $row["prodPrice"]; ?> </td>
-            <td><a href='del.php?a=<?php echo $row["prodId"]; ?>'><img src='img/trash-solid.svg'></a> <a href='edit.php?a=<?php echo $row["prodId"]; ?>'><img src='img/pen-solid.svg'></a></td>
+            <td><a href='del.php?a=<?php echo $row["prodId"]; ?>'><img src='img/trash-solid.svg'></a> 
+            <a href='edit.php?a=<?php echo $row["prodId"]; ?>'><img src='img/pen-solid.svg'></a></td>
         </tr>
 <?php
     }
